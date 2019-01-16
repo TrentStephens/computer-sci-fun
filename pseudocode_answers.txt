@@ -1,0 +1,50 @@
+####Questions
+
+> 1. Why do programmers use pseudocode?
+
+Programmers use pseudocode in order to wrap their head around how a project might work. By writing
+out the steps of the code, programmers can logically see where they should start coding and the 
+steps that will need to be taken in order to get to the end. Having a plan in place means programmers
+won't waste time working on a piece of code that won't get used in the end. Pseudocode is a powerful
+tool that can stop problems from cropping up during the development process.
+
+> 2. If you run pseudocode on your computer what would happen?
+
+Running pseudocode on a computer wouldn't do anything. It are just words that approximate what code 
+should do, it is not an actual programming language.
+
+###Programming Assignment
+
+> Create a function that takes two numbers and prints out the greater number.
+
+numberA is undefined
+numberB is undefined
+INPUT a number for numberA and numberB
+IF numberA is greater than numberB THEN
+	PRINT numberA
+ELSE IF number B is greater than nmberA THEN
+	PRINT numberB
+ELSE
+	PRINT "These numbers are equal"
+END IF
+
+> Create a function that prints out the numbers from 1 to 100.
+
+INIT total to 0
+WHILE the number is not 100
+	Add 1 to the number
+	PRINT the number
+END WHILE
+
+> Create a function that searches for a specific entry in a phonebook.
+
+INIT Array of names
+INIT Array of phone numbers
+SEARCH for name
+	RETURN name AND number IF there is a match (full or partial)
+OR
+SEARCH for number
+	RETURN name and number if there is a match (full or partial)
+
+> Using the pseudocode you wrote for the previous question, implement it in any computer language of your choice.
+
