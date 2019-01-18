@@ -48,3 +48,14 @@ SEARCH for number
 
 > Using the pseudocode you wrote for the previous question, implement it in any computer language of your choice.
 
+searchContact () {
+var name = [John Smith, Mark Johnson, Sally Stevens, Julia Toddson"
+var number = [555-5551, 555-5552, 555-5553, 555-5554]
+
+var nameSearch = name.indexOf("John Smith")
+
+return nameSearch
+
+}
+
+
