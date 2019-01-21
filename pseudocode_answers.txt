@@ -48,14 +48,18 @@ SEARCH for number
 
 > Using the pseudocode you wrote for the previous question, implement it in any computer language of your choice.
 
-searchContact () {
-var name = [John Smith, Mark Johnson, Sally Stevens, Julia Toddson"
-var number = [555-5551, 555-5552, 555-5553, 555-5554]
+var data = [{
+name: 'John Smith',
+ph: '555-5551',
+address: 'test address 1'},
+{name: "Mark Johnson"
+ph: 555-5552
+address: 'test address 2'
 
-var nameSearch = name.indexOf("John Smith")
-
-return nameSearch
-
+var search = function(searchedData) {
+    return data.find(function(element)) {
+        return element === searchedData;
+    });
 }
 
 
