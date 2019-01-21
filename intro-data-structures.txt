@@ -25,3 +25,12 @@ function lineChanges(){
 }
 
 2. Provide another real-world example that you can model using a data structure.
+
+There are plenty of examples where data structures can me modeled in real life. One such example would be someone's refrigerator. The
+different types of food are different types of data and it's arranged in a way where some "data" is more easily reached. Then the it
+rotates out depending on how fresh it is.
+
+3. How would your data structure allow developers to access and manipulate the data?
+
+My example would allow a developer to access and manipulate data by finding the "data" where the data usually lives. They can also check
+to see what data is "fresh" and what data is "expired". The data is configurable depending on the developers preferances.
