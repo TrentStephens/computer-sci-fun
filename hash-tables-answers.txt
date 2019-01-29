@@ -1,0 +1,10 @@
+1. A hash table is a way to store data in a computer by pairing values with unique keys. This
+data can be accessed by refering to this key.
+
+2. Hashing in the processes of creating a hash table from data. This is done by converting
+strings to a numerical index.
+
+3. Hash tables store data by placing it in a specific location in an array internally 
+maintained within the hash table.
+
+4. 

@@ -1,0 +1,15 @@
+Questions
+
+1. The main difference between a stack and a queue is how they access the data. A stack
+uses Last In First Out logic where the most recent data is accessed first. A queue uses
+First In First Out where the oldest data is accessed first.
+
+2. Stacks and Queues are similar in the regard that they are different ways to organize data
+to be accessed by the code at some point.
+
+3. If I were a developer I would utilize LIFO to implement an UNDO/REDO feature in a word
+program. This is because I would want to be manipulating the most recent data which is what
+happens in Last in Last Out, the last element is first to leave.
+
+Programming Questions
+

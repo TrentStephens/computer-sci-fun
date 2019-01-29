@@ -1,0 +1,12 @@
+Exercises
+
+1. There are pros and cons to using a linked list instead of an array. The main pro is that
+linked lists take up much less space than arrays because the data doesn't have to be stored
+all at once. A disadvantage is that since the elements in a linked list aren't always stored
+in active memory, it can take longer to access the data compared to an array that just needs
+to reference an objects index.
+
+2. A linked list is kind of like a scavenger hunt. In order to find the data you're looking 
+for, you have to start with an initial clue (the Head Node) and go from node to node until
+you find the specific data you are looking for.
+
