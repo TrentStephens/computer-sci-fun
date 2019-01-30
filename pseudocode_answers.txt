@@ -48,18 +48,34 @@ SEARCH for number
 
 > Using the pseudocode you wrote for the previous question, implement it in any computer language of your choice.
 
-var data = [{
-name: 'John Smith',
-ph: '555-5551',
-address: 'test address 1'},
-{name: "Mark Johnson"
-ph: 555-5552
-address: 'test address 2'
+var data = [
+  {
+    name: 'Devin Smith',
+    ph: '555-5551',
+    address: '100 Main Street'
+  },
+  {
+    name: "Mark Johnson",
+    ph: '555-5552',
+    address: '500 Main Street'
+  }
+];
 
-var search = function(searchedData) {
-    return data.find(function(element)) {
-        return element === searchedData;
-    });
+function search(query){
+  let match = [];
+  query = query.toLowerCase();
+  data.forEach((entry)=>{
+    
+    Object.keys(entry).forEach((key)=>{
+     
+      if(entry[key].toLowerCase().indexOf(query)>-1){
+        match.push(entry);
+      }
+    })
+  })
+  return match;
 }
+
+console.log(search("Devin"));
 
 

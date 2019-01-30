@@ -1,0 +1,16 @@
+1. A binary tree is a type of tree data structure where each node points may point to a right
+or left child node. Different rules can be created for what data is held in each node, left
+or right.
+
+2. A heuristic is a best guess for how to solve a complex problem that might not be 100%
+accurate, but makes up for the lack of efficiency by saving tons of time.
+
+3. A heuristic could be implemented in a "Search" feature so that the code expects certain
+words or phrases to be searched and can serve up that information quicker than if the
+code had to run though every possible piece of data it could search through.
+
+4. A depth-first search will start searcing at the root of a tree and go all the way down
+until it reaches an end. It will then backtrack until it finds another path to go down. This
+will be repeated until all nodes are searched. Breadth first search starts at the root of a
+tree, then will search the data from all the nodes on the next level down, and move onto the
+next level after that, and so on until all levels are searched.
