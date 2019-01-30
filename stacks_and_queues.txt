@@ -25,4 +25,4 @@ function reverse(input){
   return stack.join("");
 }
 
-console.log(reverse("pot"));
+console.log(reverse("test"));
