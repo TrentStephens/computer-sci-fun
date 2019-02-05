@@ -1,0 +1,61 @@
+1. Making Coffee
+- TAKE empty coffee pot
+    - FILL empty coffee pot with WATER to desired amount
+    - POUR WATER into the BREWER
+- TAKE FILTER from storage
+    - PLACE FILTER into BREWER
+- TAKE COFFEE from storage
+    - MEASURE COFFEE to the desired amount
+    - POUR COFFEE into FILTER
+- TURN ON BREWER
+    - WAIT until COFFEE is finished BREWING 
+- TAKE CUP from storage
+    - POUR COFFEE into CUP
+- ENJOY COFFEE
+
+Washing Dishes 
+- FILL SINK1 with WATER and SOAP
+- TAKE DIRTY DISH and place into SINK1
+- TAKE SPONGE
+    - USE SPONG to clearn DIRTY DISH
+- TURN on WATER and rinse off DIRTY DISH in SINK2
+- PLACE CLEAN DISH into DRYING RACK
+- TAKE CLEAN DISH from DRYING RACK
+    - WIPE CLEAN DISH with TOWEL
+    - PUT CLEAN DISH in correct storage location
+- REPEAT until there are no more DIRTY DISH objects
+
+Making a PB&J Sandwich
+- RETRIEVE BREAD, PEANUT BUTTER, JELLY, and KNIFE from storage
+- Open LOAF of BREAD
+    - CHOOSE 2 SLICES of BREAD from LOAF
+    - PLACE SLICES on counter
+- OPEN PEANUT BUTTER
+- USE KNIFE to extract the desired amount of PEANUT BUTTER
+    - SPREAD PEANUT BUTTER on 1 SLICE of BREAD
+    - WIPE OFF KNIFE
+- OPEN JELLY
+- USE KNIFE to extract the desired amount of PEANUT BUTTER
+    - SPREAD JELLY on 1 SLICE of BREAD without PEANUT BUTTER
+    - WIPE OFF KNIFE
+- COMBINE SLICE with JELLY and SLICE with PEANUT BUTTER
+- CLOSE LOAF of BREAD, JELLY, and PEANUT BUTTER
+    - RETURN LOAF of BREAD, JELLY, and PEANUT BUTTER to storage
+- EAT SANDWICH
+
+2. Amazon - They have created an algorithm for how to deliever packages all over the United
+States in 2 days at the click of a button. They have streamlined the process for many people
+and have made it seem like anything that takes longer than 2 days is a long wait.
+Instagram - Has created an algorithm for how to display posts so someone's feed. This is 
+a controversial algorithm because people claim they just want to see posts in reverse order,
+but their data has suggested that people interact more often with posts that have been
+served up via their algorithm
+Facebook - Facebook has created a lot of algorithms, but the one I want to focus on is one
+that detects the reliability of news items. They suffered backlash for how their platform
+was used leading up to the 2016 presidential election, so they needed to make a change. 
+They have made an effort to clean up their "fake news" problem and it has helped them gain
+back trust from the public.
+
+3. An efficient algorithm is one that uses as few steps as possible but still ends up with
+the most effective results. Algorithms become inefficient once they start taking too long
+to get to the optimal answer or the final result isn't optimal despite fewer steps.
