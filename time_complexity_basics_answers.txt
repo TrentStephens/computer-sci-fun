@@ -1,0 +1,30 @@
+1. Time complexity is a function that expresses how long it will take a program to execute.
+In relation to algorithms, this is important because it calculates how long a program will
+take based on the amount of information that is fed into the code.
+
+2. Runtime is another name for time complexity and it measures the amount of time it takes
+to run an algorithm.
+
+3. The runtime of an algorithm is calculated by adding up the number of instructions in an
+algorithm based on the size of the inputs, and then simplify the expression to the largest
+term (without any constants).
+
+4. 
+Logarithmic Growth Rate
+Log-Linear Growth Rate
+Constant growth rate
+Linear Growth Rate
+Quadratic Growth Rate
+Cubic Growth Rate
+Exponential Growth Rate
+
+5. A real world example of Linear Growth Rate would be the cost you pay for taking a taxi
+that charges per mile.
+
+6 The time complexity of this function is (O(n))
+
+7 The time complexity of this function is O(n^2)
+
+8 The time complexity of this function is O(2^n)
+
+9. The most efficient code snippet here is the one from question 6
