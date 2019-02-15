@@ -13,7 +13,7 @@ happens in Last in Last Out, the last element is first to leave.
 
 Programming Questions
 
-function reverse(input){
+1. function reverse(input){
   
   var stack = [];
 
@@ -26,4 +26,28 @@ function reverse(input){
 }
 
 console.log(reverse("test"));
+
+2. 
+let numbers = [0,1,2,3,4];
+Array.prototype.pop = function(){
+  return this[0];
+}
+console.log(numbers.pop());
+
+3. class Queue{
+  constructor(){
+    this.list = [];
+  }
+  
+  enqueue(item){
+    this.list.push(item);
+  }
+  
+  dequeue(){
+    return this.list.shift()
+  }
+}
+
+let books = new Queue();
+
 

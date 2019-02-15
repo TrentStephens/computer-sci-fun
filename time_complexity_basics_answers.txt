@@ -27,4 +27,4 @@ that charges per mile.
 
 8 The time complexity of this function is O(2^n)
 
-9. The most efficient code snippet here is the one from question 6
+9. The most efficient code snippet here is the one from question 6 
