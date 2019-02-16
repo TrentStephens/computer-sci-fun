@@ -1,35 +1,41 @@
 1. Making Coffee
+- IF COFFEE POT is EMPTY
+    - FILL COFFEE POT until FULL
+        - THEN POUR into the BREWER
+- IF FILTER IN BREWER === FALSE
+    - THEN PLACE FILTER into BREWER
+- IF COFFEE IN BREWER === FALSE
+    - THEN POUR COFFEE into BREWER
+- SET BREWER ON === TRUE
 
-IF coffeePot === "empty"
-    THEN FILL UNTIL coffeePot === "full"
-    IF coffeePot === "full"
-        THEN FILL brewer until brewer === "full"
-IF filter === "empty"
-    THEN FILL UNTIL filter === "full"
-IF brewer && filter === "full"
-    THEN brewCoffee === true
 
 Washing Dishes 
+- IF SINK === EMPTY
+    - THEN FILL WITH WATER
+    - THEN FILL WITH SOAP
+    - THEN FILL WITH DISHESDISHES
+- WHILE DIRTYDISHES === DIRTY
+    - PLACE DITRYDISHES in WATER
+    - WASH DIRTYDISHES with SPONGE
+    - PLACE DIRTYDISHES in RACK
+    - SET DIRTYDISHES === CLEANDISHES
+- While CLEANDISHES are WET
+    - DRY CLEANDISHES WITH TOWEL
+    - SET CLEANDISHES === DRY
+    - PLACE CLEAN DISHES in STORAGE
 
-WHILE dirtyDish === true
-   THEN WASH dish
-   THEN DRY dish
-   THEN STORE dish
-   CHECK IF dirtyDish === true
+Brushing your Teeth
 
+- IF TOOTHBRUSH is EMPTY
+    - THEN PUT TOOTHPASET on TOOTHBRUSH
+    - THEN RUN WATER over TOOTHBRUSH
+- WHILE TEETH === DIRTY
+    - BRUSH TEETH with TOOTHBRUSH
+    - UNTIL TEETH = CLEAN
+- IF TEETH === CLEAN
+    - THEN RINSE off TOOTHBRUSH
+    - THEN put TOOTHBRUSH away
 
-Change a lightbult
-
-
-
-IF lightbulb === inPlace
-   SET power = "off"
-   THEN REMOVE lightbulb
-   THEN DISPOSE lightbulb
-
-IF lightbulb != inPlace
-   THEN INSERT lightbulb
-   SET power === "on"
 
 
 2. Amazon - They have created an algorithm for how to deliever packages all over the United
