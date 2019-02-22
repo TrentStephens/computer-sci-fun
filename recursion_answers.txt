@@ -1,0 +1,32 @@
+1. Recursion is when a function calls itself as a perameter and moves along towards a base 
+case. Iteration is looping a function until the processs is complete. Recursion makes sense
+when using an algorithm with defined combinations of sub-results, but sometimes iterations
+make more sense depending on circumstances such as repeating calculations.
+
+2. Five algorithms that commonly implement recusion are factorial of a number,
+greatest common divisor, Fibonacci Numbers, Recursive Binary Search and Linked List Print
+
+3. Recursion should be used when a problem requires the function to be called within itself
+but it doesn't make sense to use iteration. An example of a time you'd want to use recursion
+is for sorting data. You should avoid using recursion when there is the chance for creating
+infinate loops and instead use iteration such as calculating Fibonacci numbers.
+
+4. Factorial - These two versions are pretty similar. The main difference is that the
+iteration code has a base case to work towards that the recursive function does not.
+
+Maximum - The recursive code is much more complex than the iterative code. The possible max
+and the remainging numbers have to be pulled out in a more complex manner in the recursive
+code compared to the iterative code where you can just pull the numbers after the first all
+at once.
+
+Fibonacci - At first glance the codes look pretty similar. The iterative code doesn't seem
+as straight forward, but it will be more efficient than the recursive code as it will help
+reduce repeated calculations
+
+5. 
+
+6.
+
+7. This Google Easter Egg is funny because by definition recursion is doing the same thing
+over and over again so by clicking "did you mean: recursion" you are doing just that over
+and over again.

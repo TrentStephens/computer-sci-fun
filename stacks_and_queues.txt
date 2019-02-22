@@ -28,26 +28,33 @@ Programming Questions
 console.log(reverse("test"));
 
 2. 
-let numbers = [0,1,2,3,4];
-Array.prototype.pop = function(){
-  return this[0];
-}
-console.log(numbers.pop());
 
-3. class Queue{
-  constructor(){
-    this.list = [];
-  }
+class Queue{
+
+ constructor(){
+   this.list = [];
+ }
+
+ enqueue(item){
+   this.list.push(item);
+ }
+
+ dequeue(){
+   return this.list.shift()
+ }
   
-  enqueue(item){
-    this.list.push(item);
-  }
-  
-  dequeue(){
-    return this.list.shift()
-  }
+ pop(){
+   let num = this.list.length;
+   let items = [];
+   let item;
+   for(let i=0; i<num; i++){
+     item = this.dequeue();
+     if(i<(num-1)){
+       items.push(item);
+     }
+   }
+   this.list = items;
+   return item;
+ }
 }
-
-let books = new Queue();
-
 
